@@ -18,6 +18,12 @@
 
 
 
+BD一览
+
+![image-20230530003302876](pics\image-20230530003302876.png)
+
+
+
 ## 如何最简创建一个xdma的demo，实现基于PCIE的PC对fpga的读写
 
 todo
