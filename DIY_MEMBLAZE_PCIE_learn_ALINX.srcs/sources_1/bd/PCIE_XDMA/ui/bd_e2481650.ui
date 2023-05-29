@@ -1,0 +1,44 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port CLK_IN_D_0 -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port pcie_mgt_0 -pg 1 -lvl 5 -x 1330 -y 510 -defaultsOSRD
+preplace port DDR3_0 -pg 1 -lvl 5 -x 1330 -y 290 -defaultsOSRD
+preplace port sys_rst_n_0 -pg 1 -lvl 0 -x 0 -y 570 -defaultsOSRD
+preplace port user_lnk_up_0 -pg 1 -lvl 5 -x 1330 -y 530 -defaultsOSRD
+preplace port clk_in1_50M -pg 1 -lvl 0 -x 0 -y 430 -defaultsOSRD
+preplace port DDR_init_calib_complete_0 -pg 1 -lvl 5 -x 1330 -y 370 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 1 -x 170 -y 500 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 2 -x 510 -y 560 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 4 -x 1160 -y 330 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -x 870 -y 430 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 870 -y 320 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 3 -x 870 -y 140 -defaultsOSRD
+preplace inst rst_mig_7series_0_200M -pg 1 -lvl 2 -x 510 -y 130 -defaultsOSRD
+preplace netloc util_ds_buf_0_IBUF_OUT 1 1 1 330J 490n
+preplace netloc sys_rst_n_0_1 1 0 2 NJ 570 NJ
+preplace netloc xdma_0_user_lnk_up 1 2 3 NJ 530 NJ 530 NJ
+preplace netloc clk_in1_0_1 1 0 3 NJ 430 NJ 430 NJ
+preplace netloc clk_wiz_0_clk_200M 1 3 1 1020J 340n
+preplace netloc xlconstant_0_dout 1 3 1 NJ 320
+preplace netloc xdma_0_axi_aclk 1 2 1 700 100n
+preplace netloc xdma_0_axi_aresetn 1 2 1 710 120n
+preplace netloc mig_7series_0_ui_clk 1 1 4 330 230 720 260 1020J 230 1290
+preplace netloc mig_7series_0_mmcm_locked 1 1 4 320 10 NJ 10 NJ 10 1310
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 1 4 340 20 NJ 20 NJ 20 1300
+preplace netloc rst_mig_7series_0_200M_peripheral_aresetn 1 2 2 690 500 1030J
+preplace netloc mig_7series_0_init_calib_complete 1 4 1 N 370
+preplace netloc CLK_IN_D_0_1 1 0 1 NJ 500
+preplace netloc xdma_0_pcie_mgt 1 2 3 NJ 510 NJ 510 NJ
+preplace netloc mig_7series_0_DDR3 1 4 1 NJ 290
+preplace netloc xdma_0_M_AXI 1 2 1 680 80n
+preplace netloc axi_mem_intercon_M00_AXI 1 3 1 1030 140n
+levelinfo -pg 1 0 170 510 870 1160 1330
+pagesize -pg 1 -db -bbox -sgen -140 0 1560 690
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_bram_cntlr_cnt":"1"
+}

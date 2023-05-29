@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/PCIE_XDMA/ip/PCIE_XDMA_util_ds_buf_0_0/util_ds_buf.vhd" \
+"../../../bd/PCIE_XDMA/ip/PCIE_XDMA_util_ds_buf_0_0/sim/PCIE_XDMA_util_ds_buf_0_0.vhd" \
+"../../../bd/PCIE_XDMA/ip/PCIE_XDMA_rst_mig_7series_0_200M_0/sim/PCIE_XDMA_rst_mig_7series_0_200M_0.vhd" \
+
+nosort
